@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./styles.css";
-import ImageAccessibility from "/assets/acessibilidade.png";
-import ImageAumentarFonte from "/assets/aumentarfonte.png";
-import ImageDiminuirFonte from "/assets/diminuirfonte.png";
-import ImageMaisZoom from "/assets/maiszoom.png";
-import ImageMenosZoom from "/assets/menoszoom.png";
-// import ImageContraste from "/assets/contraste.png";
-// import ImageModoNoturno from "/assets/modonoturno.png";
-import ImageTalkBack from "/assets/falar.png";
+import ImageAccessibility from "../../assets/acessibilidade.png";
+import ImageAumentarFonte from "../../assets/aumentarfonte.png";
+import ImageDiminuirFonte from "../../assets/diminuirfonte.png";
+import ImageMaisZoom from "../../assets/maiszoom.png";
+import ImageMenosZoom from "../../assets/menoszoom.png";
+// import ImageContraste from "../../assets/contraste.png";
+// import ImageModoNoturno from "../../assets/modonoturno.png";
+import ImageTalkBack from "../../assets/falar.png";
 import {useAccessibility} from '../../Contexts/AccessibilityContext'
 
 const AccessibilityPanel = ({ children }) => {
